@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.interfaces.interfacesapp.JerseySelection"
+    tools:showIn="@layout/activity_jersey_selection">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:baselineAligned="false"
+        >
+        <ImageButton
+            android:id="@+id/imgButton1"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shirt1"
+            android:soundEffectsEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="1"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:id="@+id/imgButton2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shirt2"
+            android:soundEffectsEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="2"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:id="@+id/imgButton3"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shirt3"
+            android:soundEffectsEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="3"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:id="@+id/imgButton4"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shirt4"
+            android:soundEffectsEnabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="4"
+            android:background="@android:color/transparent" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:id="@+id/imageButton5"
+            android:tag="5"
+            android:src="@drawable/shirt5"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="6"
+            android:id="@+id/imageButton6"
+            android:src="@drawable/shirt6"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="7"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/shirt7"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="8"
+            android:id="@+id/imageButton8"
+            android:src="@drawable/shirt8"
+            android:background="@android:color/transparent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="160dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="9"
+            android:id="@+id/imageButton9"
+            android:src="@drawable/shirt9"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="10"
+            android:id="@+id/imageButton10"
+            android:src="@drawable/shirt10"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="11"
+            android:id="@+id/imageButton11"
+            android:src="@drawable/shirt11"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="12"
+            android:id="@+id/imageButton12"
+            android:src="@drawable/shirt12"
+            android:background="@android:color/transparent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="240dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="13"
+            android:id="@+id/imageButton13"
+            android:src="@drawable/shirt13"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="14"
+            android:id="@+id/imageButton14"
+            android:src="@drawable/shirt14"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="15"
+            android:id="@+id/imageButton15"
+            android:src="@drawable/shirt15"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="16"
+            android:id="@+id/imageButton16"
+            android:src="@drawable/shirt16"
+            android:background="@android:color/transparent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="320dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="17"
+            android:id="@+id/imageButton17"
+            android:src="@drawable/shirt17"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="18"
+            android:id="@+id/imageButton18"
+            android:src="@drawable/shirt18"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="19"
+            android:id="@+id/imageButton19"
+            android:src="@drawable/shirt19"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="updateJersey"
+            android:tag="20"
+            android:id="@+id/imageButton20"
+            android:src="@drawable/shirt20"
+            android:background="@android:color/transparent" />
+    </TableRow>
+
+</RelativeLayout>

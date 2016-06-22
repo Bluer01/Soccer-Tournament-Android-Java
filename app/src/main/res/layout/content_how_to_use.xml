@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.interfaces.interfacesapp.HowToUse"
+    tools:showIn="@layout/activity_how_to_use">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="This application is designed for referee use to create tournament, record number of teams, the tournament type, scores and a winner."
+                android:id="@+id/textView10"
+                android:textColor="#000"
+                android:layout_marginBottom="15dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Create a Tournament"
+                android:id="@+id/textView12"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Press on 'start new tournament'\n2. Enter the name of the tournament\n3. Choose the number of teams\n4. Choose the tournament type from Round Robin, Knockout and Combination\n5. Enter teams' names. If left empty, the teams will be created with default names as displayed\n6. Click on 'Create Tournament'"
+                android:id="@+id/textView11"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tournament Types"
+                android:id="@+id/textView13"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Round Robin"
+                android:id="@+id/textView17"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Each team plays against every other team."
+                android:id="@+id/textView18"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Knockout"
+                android:id="@+id/textView15"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Losing team is eliminated after each round."
+                android:id="@+id/textView16"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Combination"
+                android:id="@+id/textView19"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Starts with Round Robin, then the top teams are formed into a knockout tournament and eliminated after each round."
+                android:id="@+id/textView20"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="App Screens"
+                android:id="@+id/textView25"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview"
+                android:id="@+id/textView26"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Provides a general overview of the tournament, including the progress of the tournament."
+                android:id="@+id/textView27"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Schedule"
+                android:id="@+id/textView28"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Displays the completed and upcoming matches in the tournament, along with results and the ability to add results to a match."
+                android:id="@+id/textView29"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Rankings"
+                android:id="@+id/textView30"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Displays a table of team standings in the tournament. Teams are organized by who has most points and this can be used to determine the winner at the end of a tournament."
+                android:id="@+id/textView31"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add or edit match results"
+            android:id="@+id/textView21"
+            android:textColor="#000"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Open the 'Schedule' tab on the main screen\n2. Use the left/right arrows to navigate between rounds\n3. Tap on the match you would like to add scores to\n4. Enter match results into inputs\n5. Tap the 'Save Scores' button and the match results will be saved"
+                android:id="@+id/textView22"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset Tournament"
+                android:id="@+id/textView23"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Should you want to delete all tournament data (including teams and match results), simply:\n\n1. Open any page on the tournament view\n2. Tap on the three vertical dots in the top right of the menu bar\n3. Tap on 'Reset Tournament'\n4. Tap on 'Yes, I Understand'\n5. You will be returned to the main screen where you can make a new tournament"
+                android:id="@+id/textView24"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="To exit out of this instruction screen, simply tap the back button on your device. Enjoy managing your tournament!"
+                android:id="@+id/textView32"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
